@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mkdir $1/network-proxy-pac/
+
+wget -O $1/network-proxy-pac/net-proxy.pac http://proxy/proxy.pac
+

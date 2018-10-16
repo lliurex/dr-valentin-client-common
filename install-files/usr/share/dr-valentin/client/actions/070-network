@@ -1,0 +1,18 @@
+#!/bin/sh
+
+mkdir $1/network/
+
+cp /etc/network/interfaces $1/network/
+#cp /etc/init/network-manager.override $1/network
+
+route -n >> $1/network/route
+
+ifconfig >> $1/network/ifconfig
+
+iptables-save >> $1/network/iptables
+
+host server >> $1/network/host_server
+
+n4d-client -h server getmethods >> $1/network/n4d_getmethods
+
+cp /etc/resolv.conf $1/network/
