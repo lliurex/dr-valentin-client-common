@@ -1,0 +1,35 @@
+dr-valentin-client-common (0.9) xenial; urgency=medium
+
+  * tested & ported to xenial
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Wed, 16 Mar 2016 13:10:06 +0100
+
+dr-valentin-client-common (0.6) trusty; urgency=medium
+
+  * First trusty release
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 02 Jul 2015 08:44:19 +0200
+
+dr-valentin-client-common (0.4) precise; urgency=high
+
+  * Added hardware info
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 12 Nov 2013 14:54:16 +0100
+
+dr-valentin-client-common (0.3) precise; urgency=low
+
+  * Added more test
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 12 Nov 2013 14:27:29 +0100
+
+dr-valentin-client-common (0.2) precise; urgency=low
+
+  * Fixed dependences
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 14 Oct 2013 14:34:08 +0200
+
+dr-valentin-client-common (0.1) precise; urgency=high
+
+  * First release
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 02 Oct 2013 10:00:31 +0200
