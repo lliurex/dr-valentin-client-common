@@ -1,3 +1,9 @@
+dr-valentin-client-common (0.19) bionic; urgency=medium
+
+  * Initial release for bionic
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 16 Oct 2018 17:21:17 +0200
+
 dr-valentin-client-common (0.9) xenial; urgency=medium
 
   * tested & ported to xenial
