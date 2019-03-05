@@ -5,9 +5,11 @@ mkdir $1/network/
 cp /etc/network/interfaces $1/network/
 #cp /etc/init/network-manager.override $1/network
 
-route -n >> $1/network/route
+#route -n >> $1/network/route
+ip route  >> $1/network/route
 
-ifconfig >> $1/network/ifconfig
+#ifconfig >> $1/network/ifconfig
+ip addr >> $1/network/ifconfig
 
 iptables-save >> $1/network/iptables
 
