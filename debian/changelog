@@ -1,3 +1,9 @@
+dr-valentin-client-common (0.20) bionic; urgency=medium
+
+  * Replace deprecated eth-tools commands
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Tue, 05 Mar 2019 18:12:14 +0100
+
 dr-valentin-client-common (0.19) bionic; urgency=medium
 
   * Initial release for bionic
