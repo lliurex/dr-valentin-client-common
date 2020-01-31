@@ -8,6 +8,6 @@ Standards-Version: 4.1.2
 
 Package: dr-valentin-client-common
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, python, n4d, dr-valentin (>=0.2)
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3, n4d, dr-valentin (>=0.2)
 Description:  Client tests for dr valentin
  Package containing client tests for dr valentin

@@ -1,3 +1,9 @@
+dr-valentin-client-common (0.21) bionic; urgency=medium
+
+  * Updated control file to change python dependency for python3 
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 31 Jan 2020 10:25:32 +0100
+
 dr-valentin-client-common (0.20) bionic; urgency=medium
 
   * Replace deprecated eth-tools commands
