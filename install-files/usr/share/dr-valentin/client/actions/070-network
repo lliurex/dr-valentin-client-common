@@ -2,7 +2,7 @@
 
 mkdir $1/network/
 
-cp /etc/network/interfaces $1/network/
+cp -r /etc/netplan $1/network/
 #cp /etc/init/network-manager.override $1/network
 
 #route -n >> $1/network/route
@@ -15,6 +15,6 @@ iptables-save >> $1/network/iptables
 
 host server >> $1/network/host_server
 
-n4d-client -h server getmethods >> $1/network/n4d_getmethods
+n4d-client -a https://server:9779 call get_methods >> $1/network/n4d_getmethods
 
 cp /etc/resolv.conf $1/network/
