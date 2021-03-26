@@ -1,0 +1,13 @@
+Source: dr-valentin-client-common
+Section: misc
+Priority: standard
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: Equipo LliureX <lliurex@gva.es>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+
+Package: dr-valentin-client-common
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3, n4d, dr-valentin (>=0.2)
+Description:  Client tests for dr valentin
+ Package containing client tests for dr valentin
